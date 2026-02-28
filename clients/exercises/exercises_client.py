@@ -5,6 +5,14 @@ from httpx import Response
 from clients.api_client import APIClient
 from clients.private_http_builder import get_private_http_client, AuthenticationUserDict
 
+class Exercise(TypedDict):
+    title: str
+    courseId: str
+    maxScore: int
+    minScore: int
+    orderIndex: int
+    description: str
+    estimatedTime: str
 
 class GetExercisesQueryDict(TypedDict):
     """
@@ -53,13 +61,7 @@ class GetExercisesResponseDict:
     """
         Описание структуры ответа на запрос заданий
     """
-    title: str
-    courseId: str
-    maxScore: int
-    minScore: int
-    orderIndex: int
-    description: str
-    estimatedTime: str
+    exercises: list[Exercise]
 
 class ExerciseClient(APIClient):
     """
