@@ -6,6 +6,9 @@ from clients.api_client import APIClient
 from clients.private_http_builder import get_private_http_client, AuthenticationUserDict
 
 class Exercise(TypedDict):
+    """
+        Описание структуры задания.
+    """
     title: str
     courseId: str
     maxScore: int
