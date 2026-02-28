@@ -51,16 +51,10 @@ class CreateExerciseResponseDict(TypedDict):
     """
         Описание структуры ответа на создание задания.
     """
-    title: str
-    courseId: str
-    maxScore: int
-    minScore: int
-    orderIndex: int
-    description: str
-    estimatedTime: str
+    exercise: Exercise
 
 
-class GetExercisesResponseDict:
+class GetExercisesResponseDict(TypedDict):
     """
         Описание структуры ответа на запрос заданий
     """
@@ -124,7 +118,7 @@ class ExerciseClient(APIClient):
         response = self.create_exercise_api(request)
         return response.json()
 
-    def update_exercise(self, exercise_id: str, request: UpdateExerciseRequestDict) -> UpdateExerciseRequestDict:
+    def update_exercise(self, exercise_id: str, request: UpdateExerciseRequestDict) -> UpdateExerciseResponseDict:
         response = self.update_exercise_api(exercise_id, request)
         return response.json()
 
