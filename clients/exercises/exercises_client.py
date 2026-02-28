@@ -108,39 +108,18 @@ class ExerciseClient(APIClient):
         return self.delete(f"/api/v1/exercises/{exercise_id}")
 
     def get_exercise(self, request: CreateExerciseRequestDict) -> CreateExerciseResponseDict:
-        """
-        Метод для получения задания.
-        :param request: Словарь с параметрами для получения задания.
-        :return: Ответ от сервера в виде json
-        """
         response = self.create_exercise_api(request)
         return response.json()
 
     def get_exercises(self, request: GetExercisesQueryDict) -> GetExercisesResponseDict:
-        """
-        Метод для получения списка заданий.
-        :param request: Словарь с параметрами для получения списка заданий.
-        :return: Ответ от сервера в виде json
-        """
         response = self.get_exercises_api(request)
         return response.json()
 
     def create_exercise(self, request: CreateExerciseRequestDict) -> CreateExerciseRequestDict:
-        """
-        Метод для создания задания.
-        :param request: Словарь с параметрами для создания задания.
-        :return: Ответ от сервера в виде json
-        """
         response = self.create_exercise_api(request)
         return response.json()
 
     def update_exercise(self, exercise_id: str, request: UpdateExerciseRequestDict) -> UpdateExerciseRequestDict:
-        """
-        Метод для обновления задания.
-        :param exercise_id: Идентификатор задания для обновления.
-        :param request: Словарь с параметрами для обновления задания.
-        :return: Ответ от сервера в виде json
-        """
         response = self.update_exercise_api(exercise_id, request)
         return response.json()
 
