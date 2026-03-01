@@ -1,6 +1,8 @@
 import httpx
+
 from tools.fakers import fake
 
+# Создаем пользователя
 create_user_payload = {
     "email": fake.email(),
     "password": "string",
@@ -12,6 +14,7 @@ create_user_response = httpx.post("http://localhost:8000/api/v1/users", json=cre
 create_user_response_data = create_user_response.json()
 print('Create user data:', create_user_response_data)
 
+# Проходим аутентификацию
 login_payload = {
     "email": create_user_payload['email'],
     "password": create_user_payload['password']
@@ -20,20 +23,15 @@ login_response = httpx.post("http://localhost:8000/api/v1/authentication/login",
 login_response_data = login_response.json()
 print('Login data:', login_response_data)
 
-update_user_headers = {
+# Выполняем загрузку файла
+create_file_headers = {
     "Authorization": f"Bearer {login_response_data['token']['accessToken']}"
 }
-
-update_payload = {
-    "email" : "user@example.com",
-    "lastName": "string",
-    "firstName": "string",
-    "middleName": "string"
-}
-update_user_response = httpx.patch(
-    f"http://localhost:8000/api/v1/users/{create_user_response_data['user']['id']}",
-    headers=update_user_headers,
-    json=update_payload
+create_file_response = httpx.post(
+    "http://localhost:8000/api/v1/files",
+    data={"filename": "image.png", "directory": "courses"},
+    files={"upload_file": open('./testdata/files/image.png', 'rb')},
+    headers=create_file_headers
 )
-update_user_response_data = update_user_response.json()
-print('Update user data:', update_user_response_data)
+create_file_response_data = create_file_response.json()
+print('Create file data:', create_file_response_data)
