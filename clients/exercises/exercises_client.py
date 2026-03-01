@@ -18,13 +18,13 @@ class ExerciseClient(APIClient):
         Клиент для работы с /api/v1/exercises
     """
 
-    def get_exercises_api(self, query: ExerciseSchema) -> Response:
+    def get_exercises_api(self, query: CreateExerciseRequestSchema) -> Response:
         """
         Метод для получения списка заданий по курсу.
         :param query: Словарь с courseId.
         :return: Ответ от сервера в виде объекта httpx.Response
         """
-        return self.get("/api/v1/exercises", params=query)
+        return self.get("/api/v1/exercises", query.model_dump(by_alias=True))
 
     def get_exercise_api(self, exercise_id: str) -> Response:
         """
