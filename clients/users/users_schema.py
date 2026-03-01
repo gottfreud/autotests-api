@@ -52,6 +52,13 @@ class UpdateUserResponseSchema(BaseModel):
     """
     user: UserSchema
 
+class GetUserRequestSchema(BaseModel):
+    """
+    Описание структуры запроса получения пользователя.
+    """
+    model_config = ConfigDict(populate_by_name=True)
+    user_id: str = Field(alias="userId")
+
 
 class GetUserResponseSchema(BaseModel):
     """
