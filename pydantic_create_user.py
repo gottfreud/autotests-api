@@ -15,9 +15,5 @@ class CreateUserRequestSchema(BaseModel):
     middle_name: str = Field(alias="middleName")
 
 class CreateUserResponseSchema(BaseModel):
-    id: str
-    email: EmailStr
-    last_name: str = Field(alias="lastName")
-    first_name: str = Field(alias="firstName")
-    middle_name: str = Field(alias="middleName")
+    user: UserSchema
 
