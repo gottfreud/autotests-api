@@ -6,8 +6,11 @@ from clients.users.public_users_client import get_public_users_client
 from clients.users.users_schema import CreateUserRequestSchema
 from tools.assertions.authentication import assert_login_response
 from tools.assertions.base import assert_status_code
+import pytest
 
 
+@pytest.mark.authentication
+@pytest.mark.regression
 def test_login():
     """
     Проверяет успешность авторизации пользователя через /api/v1/authentication/login.
