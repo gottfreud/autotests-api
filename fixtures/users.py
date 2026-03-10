@@ -1,4 +1,3 @@
-from clients.authentication.authentication_client import get_authentication_client, AuthenticationClient
 import pytest
 from pydantic import BaseModel, EmailStr
 
@@ -23,12 +22,6 @@ class UserFixture(BaseModel):
     @property
     def authentication_user(self):
         return AuthenticationUserSchema(email=self.request.email, password=self.request.password)
-
-
-@pytest.fixture
-def authentication_client() -> AuthenticationClient:
-    return get_authentication_client()
-
 
 @pytest.fixture
 def public_users_client() -> PublicUsersClient:
