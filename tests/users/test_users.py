@@ -14,6 +14,7 @@ import pytest
 @pytest.mark.users
 @pytest.mark.regression
 class TestUsers:
+    @pytest.mark.parametrize("email", ["mail.ru", "gmail.com", "example.com"])
     def test_create_user(self, email: str, public_users_client: PublicUsersClient):
         # Генерируем тестовый емейл, используя домен, полученный в параметре
         test_email = fake.email(domain=email)
