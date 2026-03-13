@@ -66,7 +66,7 @@ class TestFiles:
     def test_get_file_with_incorrect_file_id(self, files_client: FilesClient):
         response = files_client.get_file_api("incorrect-file-id")
         response_data = ValidationErrorResponseSchema.model_validate_json(response.text)
-        assert_status_code(response.status_code, HTTPStatus.UNPROCESSABLE_CONTENT)
+        assert_status_code(response.status_code, HTTPStatus.UNPROCESSABLE_ENTITY)
         assert_get_file_with_incorrect_file_id_response(response_data)
         validate_json_schema(
             response.json(),
