@@ -4,7 +4,7 @@ import pytest
 
 from clients.courses.courses_client import CoursesClient
 from clients.courses.courses_schema import UpdateCourseRequestSchema, UpdateCourseResponseSchema, GetCoursesQuerySchema, \
-    GetCoursesResponseSchema, CreateCourseRequestSchema
+    GetCoursesResponseSchema, CreateCourseRequestSchema, CreateCourseResponseSchema
 from fixtures.courses import CourseFixture
 from fixtures.files import FileFixture
 from fixtures.users import UserFixture
@@ -38,7 +38,7 @@ class TestCourses:
             created_by_user_id=function_user.response.user.id
         )
         response = courses_client.create_course_api(request)
-        response_data = UpdateCourseResponseSchema.model_validate_json(response.text)
+        response_data = CreateCourseResponseSchema.model_validate_json(response.text)
         assert_status_code(response.status_code, HTTPStatus.OK)
 
         assert_create_course_response(request, response_data)

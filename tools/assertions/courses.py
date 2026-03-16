@@ -23,7 +23,7 @@ def assert_course(actual: CourseSchema, expected: CourseSchema):
     assert_file(actual.preview_file, expected.preview_file)
     assert_user(actual.created_by_user, expected.created_by_user)
 
-def assert_get_courses_response(get_courses_response: GetCoursesResponseSchema, create_course_responses: list[CreateExerciseResponseSchema]):
+def assert_get_courses_response(get_courses_response: GetCoursesResponseSchema, create_course_responses: list[CreateCourseResponseSchema]):
     assert_length(get_courses_response.courses, create_course_responses, "courses")
 
     for index, create_course_responses in enumerate(create_course_responses):
