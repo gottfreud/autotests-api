@@ -6,6 +6,7 @@ from clients.exercises.exercises_client import ExerciseClient
 from clients.exercises.exercises_schema import CreateExerciseResponseSchema, CreateExerciseRequestSchema
 from fixtures.courses import CourseFixture
 from tools.assertions.exercises import assert_create_exercise_response
+from tools.assertions.schema import validate_json_schema
 
 
 @pytest.mark.regression
@@ -17,4 +18,4 @@ class TestExercises:
         response_data = CreateExerciseResponseSchema.model_validate_json(response.text)
         assert response.status_code == HTTPStatus.OK
         assert_create_exercise_response(request, response_data)
-        CreateExerciseResponseSchema.model_validate_json(response.text)
+        validate_json_schema(response.json(), response_data.model_json_schema())
