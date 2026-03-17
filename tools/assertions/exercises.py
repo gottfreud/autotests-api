@@ -1,5 +1,6 @@
 from clients.exercises.exercises_schema import CreateExerciseRequestSchema, CreateExerciseResponseSchema, \
-    ExerciseSchema, GetExercisesResponseSchema, GetExercisesSchema
+    ExerciseSchema, GetExercisesResponseSchema, GetExercisesSchema, UpdateExerciseRequestSchema, \
+    UpdateExerciseResponseSchema
 from tools.assertions.base import assert_equal, assert_length
 
 
@@ -23,3 +24,12 @@ def assert_exercise(actual: ExerciseSchema, expected: ExerciseSchema):
 
 def assert_get_exercises_response(get_exercises_response: GetExercisesResponseSchema, create_exercise_responses: CreateExerciseResponseSchema):
     assert_exercise(get_exercises_response.exercise, create_exercise_responses.exercise)
+
+
+def assert_update_exercise_response(request: UpdateExerciseRequestSchema, response: UpdateExerciseResponseSchema):
+    assert_equal(response.exercise.title, request.title, "title")
+    assert_equal(response.exercise.min_score, request.min_score, "min_score")
+    assert_equal(response.exercise.max_score, request.max_score, "max_score")
+    assert_equal(response.exercise.description, request.description, "description")
+    assert_equal(response.exercise.estimated_time, request.estimated_time, "estimated_time")
+    assert_equal(response.exercise.order_index, request.order_index, "order_index")
