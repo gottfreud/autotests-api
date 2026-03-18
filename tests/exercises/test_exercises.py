@@ -35,7 +35,7 @@ class TestExercises:
         request = CreateExerciseRequestSchema(course_id=function_course.response.course.id)
         response = exercises_client.create_exercise_api(request)
         response_data = CreateExerciseResponseSchema.model_validate_json(response.text)
-        assert_status_code(HTTPStatus.OK)
+        assert_status_code(response.status_code, HTTPStatus.OK)
         assert_create_exercise_response(request, response_data)
         validate_json_schema(response.json(), response_data.model_json_schema())
 
