@@ -49,7 +49,7 @@ class TestExercises:
         response = exercises_client.get_exercises_api(query)
         response_data = GetExercisesResponseSchema.model_validate_json(response.text)
         assert_status_code(response.status_code, HTTPStatus.OK)
-        assert_get_exercises_response(response_data, function_exercise.response)
+        assert_get_exercises_response(response_data, [function_exercise.response])
         validate_json_schema(response.json(), response_data.model_json_schema())
 
     @allure.tag(AllureTag.UPDATE_ENTITY)
