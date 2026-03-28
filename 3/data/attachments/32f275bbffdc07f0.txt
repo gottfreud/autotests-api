@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI4VDEwOjIxOjA0LjAxMjcwMiIsInVzZXJfaWQiOiJkMmJlMDlmNi1mNjJkLTRmMjQtODRiMi0wZDhmYTFiZjA2NDAifQ.GN59FKRPBHMHhO9VjG0QpaqrsIy2tUyISZF3AMEkR80' \
+  -H 'content-length: 351' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ok whole film learn as eight instead.","courseId":"7962da0b-196f-4ddc-81e9-7733fe2b8abf","maxScore":83,"minScore":24,"orderIndex":91,"description":"Inside budget report few specific pass at sea. Act yeah return before yeah herself yeah. Study take compare scientist month. Site why increase pretty stock act just.","estimatedTime":"3 weeks"}'

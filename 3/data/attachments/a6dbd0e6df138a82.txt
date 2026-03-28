@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI4VDEwOjIxOjAyLjc3NTA2NSIsInVzZXJfaWQiOiIxYWE3OTI5ZC1lMmQ0LTRhNzktOTYzMS0xMDI5MGFjZGFjYzAifQ.T3BEMugp2ZnZx7eM_d_731vfIYEG-FT3lz4BQH-uoRY' \
+  -H 'content-length: 340' \
+  -H 'content-type: application/json' \
+  -d '{"title":"School color turn fast sense.","courseId":"7ad1d060-8338-4fb1-b0d5-1209c862380b","maxScore":94,"minScore":1,"orderIndex":9,"description":"Enjoy able what fine fight. Network foot mean feel particular. Open might suddenly ask significant bag fall responsibility.\nNice let live police life trouble task.","estimatedTime":"6 weeks"}'
