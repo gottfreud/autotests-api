@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI4VDE2OjE5OjIyLjU5NTAzNSIsInVzZXJfaWQiOiI0NTdjZDI1Yi1lMTFkLTQ2MDgtYjNkOC00Y2E0YTU3ODcwYmQifQ.A2VswgRSqElHo4aZHHt9Z1ACFIumEc8AbkFil8dclTM' \
+  -H 'content-length: 346' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Yet do you.","maxScore":77,"minScore":30,"description":"Style full smile agency debate chance information maybe.\nAffect beat color within situation. Respond oil data prevent.\nForce write market.","estimatedTime":"2 weeks","previewFileId":"64d262ef-d156-4d2f-aef7-5a329db19b19","createdByUserId":"457cd25b-e11d-4608-b3d8-4ca4a57870bd"}'

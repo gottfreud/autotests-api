@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/a0d36e33-7859-4fc0-896c-f1390332b396' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI4VDE2OjE5OjE4LjM0OTMwOSIsInVzZXJfaWQiOiIyNWYwMTFmNy04ZGJiLTRlZDYtOGY0Yy1lMjhjOGVkZDAwM2EifQ.t1k70VwJ6oZ-KYLpD1DC-Q0LllkQjxlE89RREdJBuXY' \
+  -H 'content-length: 237' \
+  -H 'content-type: application/json' \
+  -d '{"title":"All main ball Democrat.","maxScore":50,"minScore":9,"description":"International thing Mrs turn despite. Century kind increase news responsibility room foreign. Race plant state suggest ok operation.","estimatedTime":"6 weeks"}'
