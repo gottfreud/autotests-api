@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI4VDE2OjE5OjQwLjU3MDIzNyIsInVzZXJfaWQiOiIzOGJkMjA4ZS1hOWRlLTQ5MTQtYTgwOS04NjI4ZjJjNTJmOTcifQ.gnSconRFJl5ltuMCkqErVbamEmKzRb4OzGXqaoSbJhc' \
+  -H 'content-length: 393' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Be must poor support reach meeting however.","maxScore":66,"minScore":20,"description":"Finally around later raise reveal. Cold be ten feeling wall region several action.\nWhom real finish visit include hour officer the. Center face meet blue.","estimatedTime":"8 weeks","previewFileId":"780f4d5e-3b9e-43fe-98e1-1e73b9ed533f","createdByUserId":"38bd208e-a9de-4914-a809-8628f2c52f97"}'

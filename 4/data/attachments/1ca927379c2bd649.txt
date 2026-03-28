@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/a6d92488-846e-4a57-b944-6737a2f17dc3' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI4VDE2OjE5OjQzLjAwNDY4MiIsInVzZXJfaWQiOiIwODJkZTFjZi1hNTJlLTQzNjQtYTkzNC0yMTFmYjU0ZjZmYWQifQ.Vuhnecc3MaV7ka36dGOSlYGtfPf48sSDr5CNyajAkvU' \
+  -H 'content-length: 321' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Sell floor party seem.","maxScore":94,"minScore":25,"orderIndex":52,"description":"Director stage who capital sea inside fast. Prepare every of section summer operation. Operation buy fall first.\nHistory pass college outside draw interest. Development machine serve such successful.","estimatedTime":"2 weeks"}'

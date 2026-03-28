@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI4VDE2OjE5OjQ0LjI2MTg5MyIsInVzZXJfaWQiOiI2MDE3NTIwMy04N2Q0LTRjMjItODFhMC05ZmFlMjQyOWYwNDUifQ.OFJwW4QFKuEobRE6fMwR6JyDEShjG7J_lPNX6Z9e5pE' \
+  -H 'content-length: 348' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Also need material popular head.","maxScore":78,"minScore":4,"description":"Item thousand prove walk black citizen. Very water although professor someone at part. Should none degree group recognize.","estimatedTime":"9 weeks","previewFileId":"034a0e42-a7ed-470a-bf76-446d706bfa61","createdByUserId":"60175203-87d4-4c22-81a0-9fae2429f045"}'
