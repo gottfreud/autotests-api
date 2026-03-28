@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI4VDE2OjIyOjQ5LjA2NTQ5MyIsInVzZXJfaWQiOiI5ZTlmZWRlMy1lZGU2LTRiNjYtYjBlMy1kOTAyZDI4OWI0ODIifQ.hPxroqDG1cK9mItusGJi9uk-rCS4JJetNmTEJggxN0g' \
+  -H 'content-length: 329' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Else weight she own change.","maxScore":71,"minScore":13,"description":"Smile determine owner agent book. Size series single relationship make. Father mind whom effect bag single.","estimatedTime":"9 weeks","previewFileId":"9c98c1a4-5a1d-457f-9be9-0ec68b3541f1","createdByUserId":"9e9fede3-ede6-4b66-b0e3-d902d289b482"}'
