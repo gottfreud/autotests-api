@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI5VDExOjU4OjEwLjg0MjA0MyIsInVzZXJfaWQiOiI0MjRhMjMzNC00MTg5LTRiOGUtODcxYS04MzM3ZDdjOTQ2ZWUifQ.dnNWhvxG8EvPP9crbLHRKZegiCk5TcOkNQDdDJ4UdLo' \
+  -H 'content-length: 382' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Draw of reach behavior different your art.","maxScore":61,"minScore":29,"description":"Notice might effect fish board college way. Feel structure similar do.\nBlue meet share sound general wrong indeed. Military onto house decision.","estimatedTime":"8 weeks","previewFileId":"536bd5a4-6c78-42c9-a29c-13c8dc589748","createdByUserId":"424a2334-4189-4b8e-871a-8337d7c946ee"}'

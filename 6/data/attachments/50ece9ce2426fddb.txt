@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI5VDExOjU4OjA5LjU4ODYzNSIsInVzZXJfaWQiOiJjN2FlNDIyZC0zN2Q5LTQwNWEtYjY4Ni05ZWU3YzRmNTI2OGYifQ._AFLimHB0YkZcWE8F07VER0qmgkaCDAGOQ_oilTnXpM' \
+  -H 'content-length: 374' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Indicate race summer.","maxScore":83,"minScore":20,"description":"No development onto hotel threat view. Church prove administration per full month just.\nScene around summer main development left. Protect wife any military.","estimatedTime":"4 weeks","previewFileId":"013eff6d-20da-414e-ab40-b2047c7158e3","createdByUserId":"c7ae422d-37d9-405a-b686-9ee7c4f5268f"}'

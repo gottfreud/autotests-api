@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI5VDExOjU4OjA2LjMzODI5NiIsInVzZXJfaWQiOiJlNDFjNDg2YS03NGExLTRmNzQtYTFlMi1kZjA5ZmRmY2U2YTgifQ.f38h-OO-qKl-Fz_mV49FL6Rhzu4O6oS7X-lJHm0ss2U' \
+  -H 'content-length: 323' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Cause current factor fire.","maxScore":94,"minScore":5,"description":"Guess teacher big form. Bag picture new.\nWhy if seat sell point raise threat. Common fish this report.","estimatedTime":"7 weeks","previewFileId":"a1aac632-14bf-4f05-adc8-446d484d405e","createdByUserId":"e41c486a-74a1-4f74-a1e2-df09fdfce6a8"}'

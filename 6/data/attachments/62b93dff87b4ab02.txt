@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI5VDExOjU4OjEwLjI1OTA5NSIsInVzZXJfaWQiOiJlMTJjMzUwOS1kN2NkLTQzMmEtYjQxZC1hNzcxYzg0YTVkZDYifQ.HdUBuBx0mMaxwBirSlI3UU8L30Q-5SoPIx-1SpcOpRo' \
+  -H 'content-length: 305' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Talk apply pick involve often memory.","courseId":"e6443d35-8332-4508-aa78-690723ae75cc","maxScore":63,"minScore":6,"orderIndex":86,"description":"Four lot single price can. Us each improve.\nVarious part child occur let world item site. Trial although beat off keep.","estimatedTime":"2 weeks"}'

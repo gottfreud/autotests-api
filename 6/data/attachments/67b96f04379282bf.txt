@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI5VDExOjU4OjA3LjgyOTU0MCIsInVzZXJfaWQiOiI0YWFhY2ZjNy0xM2E0LTQ4OTMtYmRmOS05YmNmZGIzNjllZTgifQ.7Qlrt_A-mqdwtqCaCio8OSE2uem5uI_8BVILieaFqTU' \
+  -H 'content-length: 393' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Look into security only coach.","maxScore":97,"minScore":20,"description":"Occur citizen care job focus television.\nHowever large glass hundred action return. Too relationship politics condition this south. Hour so you number.\nHis sign open.","estimatedTime":"4 weeks","previewFileId":"501e12e1-b4ae-413f-9967-fff3d11c44e8","createdByUserId":"4aaacfc7-13a4-4893-bdf9-9bcfdb369ee8"}'

@@ -1,0 +1,23 @@
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:27 Make PATCH request to http://localhost:8000/api/v1/exercises/4b2f1ce7-2e47-47ba-a9a7-7db3443701e2
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/exercises/4b2f1ce7-2e47-47ba-a9a7-7db3443701e2
+INFO     BASE_ASSERTIONS:base.py:16 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:69 Check update exercise response
+INFO     BASE_ASSERTIONS:base.py:33 Check that "title" equals to Will today dark age.
+INFO     BASE_ASSERTIONS:base.py:33 Check that "min_score" equals to 8
+INFO     BASE_ASSERTIONS:base.py:33 Check that "max_score" equals to 68
+INFO     BASE_ASSERTIONS:base.py:33 Check that "description" equals to Hope agent its receive. Record art board continue computer.
+Pay brother ok challenge measure. Identify never computer fast. Letter possible him yourself.
+Yourself single deal want.
+INFO     BASE_ASSERTIONS:base.py:33 Check that "estimated_time" equals to 1 weeks
+INFO     BASE_ASSERTIONS:base.py:33 Check that "order_index" equals to 45
+INFO     SCHEMA_ASSERTIONS:schema.py:18 Validating JSON schema

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI5VDExOjU4OjEwLjI1OTA5NSIsInVzZXJfaWQiOiJlMTJjMzUwOS1kN2NkLTQzMmEtYjQxZC1hNzcxYzg0YTVkZDYifQ.HdUBuBx0mMaxwBirSlI3UU8L30Q-5SoPIx-1SpcOpRo' \
+  -H 'content-length: 385' \
+  -H 'content-type: application/json' \
+  -d '{"title":"None top instead according world.","maxScore":50,"minScore":4,"description":"Feel dog pay themselves. Since cup decision serious father walk nice.\nFeel rather peace several every. Ask tax air.\nOwner member resource. Relate movie son.","estimatedTime":"8 weeks","previewFileId":"3003692c-2a3f-4c79-979b-40dfd0a48dd2","createdByUserId":"e12c3509-d7cd-432a-b41d-a771c84a5dd6"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI5VDExOjU4OjA4LjQxNDI2MyIsInVzZXJfaWQiOiI5OWY2ZmEwMC1iMWFiLTRhZDQtODBiZC1jY2IwZTcxOTJhYWUifQ.RHpJQDVbUSnX5HuhtXGqXTkhAzlwkhuFIechghbqsd8' \
+  -H 'content-length: 381' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Eye hundred occur.","maxScore":93,"minScore":15,"description":"Improve son long example guess. Night describe likely leave.\nYard when Mrs yes.\nRepublican program street like everybody. To single friend. Manage out religious same.","estimatedTime":"5 weeks","previewFileId":"0863fe58-ccfb-4493-8039-c20f8627585d","createdByUserId":"99f6fa00-b1ab-4ad4-80bd-ccb0e7192aae"}'

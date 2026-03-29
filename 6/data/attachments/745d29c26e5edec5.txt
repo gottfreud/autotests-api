@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI5VDExOjU4OjA5LjAwNjIwNyIsInVzZXJfaWQiOiJjNDA2NTNjYi1mYWE0LTRjN2YtOTkxYy04ZTU3ODUyZGU4ZmYifQ.WsC9CAdUhZAl4kQs8WgFUmIPtCkH86CvW2xh8j9Dm-A' \
+  -H 'content-length: 352' \
+  -H 'content-type: application/json' \
+  -d '{"title":"It outside ok.","maxScore":98,"minScore":14,"description":"Might life society network learn. Assume they of church.\nLawyer end toward painting those painting. Control who return near explain cost read.","estimatedTime":"2 weeks","previewFileId":"dd498339-0938-40fd-b210-f6073fbfb8c3","createdByUserId":"c40653cb-faa4-4c7f-991c-8e57852de8ff"}'
