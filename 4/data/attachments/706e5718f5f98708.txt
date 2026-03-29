@@ -1,0 +1,31 @@
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:27 Make GET request to http://localhost:8000/api/v1/courses?userId=d1cac3dd-d186-4a13-a5f8-3c8763b0ce99
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/courses?userId=d1cac3dd-d186-4a13-a5f8-3c8763b0ce99
+INFO     BASE_ASSERTIONS:base.py:16 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:56 Check get courses response
+INFO     BASE_ASSERTIONS:base.py:65 Check that length of "courses" equals to 1
+INFO     COURSES_ASSERTIONS:courses.py:37 Check course
+INFO     BASE_ASSERTIONS:base.py:33 Check that "id" equals to 61e6abbc-adbe-4893-9403-092d045f5949
+INFO     BASE_ASSERTIONS:base.py:33 Check that "title" equals to Require far instead north voice say food.
+INFO     BASE_ASSERTIONS:base.py:33 Check that "max_score" equals to 65
+INFO     BASE_ASSERTIONS:base.py:33 Check that "min_score" equals to 29
+INFO     BASE_ASSERTIONS:base.py:33 Check that "description" equals to Hair various million father reduce. Color move blood police either writer card education. House poor author firm.
+INFO     BASE_ASSERTIONS:base.py:33 Check that "estimated_time" equals to 9 weeks
+INFO     FILES_ASSERTIONS:files.py:35 Check file
+INFO     BASE_ASSERTIONS:base.py:33 Check that "id" equals to 55191b5c-ae61-4622-8a97-e39f19a621ee
+INFO     BASE_ASSERTIONS:base.py:33 Check that "url" equals to http://localhost:8000/static/tests/7daff1fa-a770-4719-b96e-2221c5b7390f.png
+INFO     BASE_ASSERTIONS:base.py:33 Check that "filename" equals to 7daff1fa-a770-4719-b96e-2221c5b7390f.png
+INFO     BASE_ASSERTIONS:base.py:33 Check that "directory" equals to tests
+INFO     USERS_ASSERTIONS:users.py:32 Check user
+INFO     BASE_ASSERTIONS:base.py:33 Check that "id" equals to d1cac3dd-d186-4a13-a5f8-3c8763b0ce99
+INFO     BASE_ASSERTIONS:base.py:33 Check that "email" equals to kaitlinfrench@example.com
+INFO     BASE_ASSERTIONS:base.py:33 Check that "last_name" equals to Guzman
+INFO     BASE_ASSERTIONS:base.py:33 Check that "first_name" equals to Emily
+INFO     BASE_ASSERTIONS:base.py:33 Check that "middle_name" equals to Heather

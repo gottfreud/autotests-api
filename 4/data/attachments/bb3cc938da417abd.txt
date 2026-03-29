@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/1b5d4e43-be12-4aab-a5e5-2bd57c641f43' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI5VDA4OjA1OjQ0Ljc3Mzg2MSIsInVzZXJfaWQiOiJhMmExOGE4NS0xZDljLTRhZTQtYTU2OS0wOGViOTViYTYxMDkifQ.G0lq0ehHUPsaYhybdXm8zyfL8kULYgYFFy5vD_AqGUA' \
+  -H 'content-length: 261' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Peace light improve.","maxScore":85,"minScore":30,"orderIndex":8,"description":"Size south special. Option understand hospital get street once. Usually sure water say like clear event.\nEight book hot theory upon stop area.","estimatedTime":"3 weeks"}'

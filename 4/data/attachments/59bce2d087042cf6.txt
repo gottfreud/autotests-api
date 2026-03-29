@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI5VDA4OjA1OjQ0LjE3OTgwMCIsInVzZXJfaWQiOiIwNGE0NjUyMy1kZmNjLTQ2YWItOTQ0MS1iMzJmMmEzZGJjYjQifQ.qk1ae0v4wydy2hJMK2FU0dsaSefNAIa2dgL4Xkl4mqw' \
+  -H 'content-length: 331' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Position purpose director hour main.","courseId":"422f85ce-4c3c-4e69-b5b3-aafdcc49dc0b","maxScore":70,"minScore":24,"orderIndex":97,"description":"Home participant church probably recently economic hard. Crime effect production level experience environmental mother. Yourself however interest.","estimatedTime":"8 weeks"}'

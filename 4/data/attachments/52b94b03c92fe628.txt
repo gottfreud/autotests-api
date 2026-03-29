@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI5VDA4OjA1OjQzLjAwMzMzMCIsInVzZXJfaWQiOiJkMWNhYzNkZC1kMTg2LTRhMTMtYTVmOC0zYzg3NjNiMGNlOTkifQ.CqrpjEG7BwP0hugnhYY8wg740CdyN_rqz2Mlmb3Z2MA' \
+  -H 'content-length: 349' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Require far instead north voice say food.","maxScore":65,"minScore":29,"description":"Hair various million father reduce. Color move blood police either writer card education. House poor author firm.","estimatedTime":"9 weeks","previewFileId":"55191b5c-ae61-4622-8a97-e39f19a621ee","createdByUserId":"d1cac3dd-d186-4a13-a5f8-3c8763b0ce99"}'

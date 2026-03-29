@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI5VDA4OjA1OjQ2LjYxODY0NiIsInVzZXJfaWQiOiI5YTFiODc3My05ODMzLTQxNWYtYTYwZC00M2JjYjM4NTc0MDcifQ.iRJTFQYnfOYeMS34ePPcCrOL5A3t2aiTvss2hkyY9E0' \
+  -H 'content-length: 353' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Leader network worry know.","courseId":"ee1e0b26-a81c-4bab-9305-61dbe57f230b","maxScore":56,"minScore":3,"orderIndex":52,"description":"Turn somebody quality exist fear company local. Argue exist assume somebody. Across today style board likely head.\nTraditional west land federal. Month energy old treat majority.","estimatedTime":"4 weeks"}'

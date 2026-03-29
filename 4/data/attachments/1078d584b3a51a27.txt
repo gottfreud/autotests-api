@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI5VDA4OjA1OjQ1LjM1ODE1MiIsInVzZXJfaWQiOiJmMWIzNDhjNy0yYWYyLTQyMjYtYjk3ZC1mYmI0ZmQ5NzQ5MjQifQ.W1ZjwUwhOV0Xe7zJevuF6HOrZZg_rZFySRcr0Sj1Cl8' \
+  -H 'content-length: 396' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Pay common five.","maxScore":73,"minScore":11,"description":"Drop upon some cost bad material. Hold wall must someone.\nAlthough agree argue add base girl prepare. Night course once recent religious value base skin. Purpose manage scientist skin.","estimatedTime":"9 weeks","previewFileId":"4593c573-8da0-4629-98b7-8bfc3aa30f3f","createdByUserId":"f1b348c7-2af2-4226-b97d-fbb4fd974924"}'

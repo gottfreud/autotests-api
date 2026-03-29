@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI5VDA4OjA1OjQyLjA5NjY4NSIsInVzZXJfaWQiOiIyMmIyNjhkMy1hMzI4LTQ0NzAtYmQ5ZC0zYzljYWRkYjE4NTUifQ.GN1BVaJUoBr4xlnQCr2PBcjx6mfOtMqudIsTAJKOHIc' \
+  -H 'content-length: 406' \
+  -H 'content-type: application/json' \
+  -d '{"title":"How stay room success scientist sure.","maxScore":65,"minScore":20,"description":"Direction scene husband. Company over role arm individual hotel force.\nAppear feeling understand choice life data short. Person alone protect. Character teacher mission low.","estimatedTime":"3 weeks","previewFileId":"b7b857c2-8085-45ae-b164-526f3aa49ab7","createdByUserId":"22b268d3-a328-4470-bd9d-3c9caddb1855"}'

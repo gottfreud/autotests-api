@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/b516d33d-8137-42b0-b4f5-e2d0976ce1c6' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI5VDA4OjA1OjQyLjA5NjY4NSIsInVzZXJfaWQiOiIyMmIyNjhkMy1hMzI4LTQ0NzAtYmQ5ZC0zYzljYWRkYjE4NTUifQ.GN1BVaJUoBr4xlnQCr2PBcjx6mfOtMqudIsTAJKOHIc' \
+  -H 'content-length: 258' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Travel field there forget shake later relationship.","maxScore":96,"minScore":23,"description":"Foot guess summer religious let. Car while training throughout military. Single ground cost short within money reduce guess.","estimatedTime":"1 weeks"}'
