@@ -1,0 +1,19 @@
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:16 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:73 Check create course response
+INFO     BASE_ASSERTIONS:base.py:33 Check that "title" equals to Receive summer him school growth sea about return.
+INFO     BASE_ASSERTIONS:base.py:33 Check that "max_score" equals to 78
+INFO     BASE_ASSERTIONS:base.py:33 Check that "min_score" equals to 5
+INFO     BASE_ASSERTIONS:base.py:33 Check that "description" equals to Method huge wrong marriage. Woman language for suffer morning Mrs plan.
+Board kitchen officer lay. Physical each approach change. Job traditional player kitchen.
+INFO     BASE_ASSERTIONS:base.py:33 Check that "estimated_time" equals to 4 weeks
+INFO     BASE_ASSERTIONS:base.py:33 Check that "preview_file_id" equals to 88cbb286-7661-4f2f-96ec-67069e440b51
+INFO     BASE_ASSERTIONS:base.py:33 Check that "created_by_user_id" equals to a87a5ac3-f22a-4ef6-930a-18087c7bd4db
+INFO     SCHEMA_ASSERTIONS:schema.py:18 Validating JSON schema

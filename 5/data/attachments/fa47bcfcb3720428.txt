@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI5VDA4OjEwOjMwLjI2MjE1OCIsInVzZXJfaWQiOiJiOWJiNTQyMy05ZmRjLTQ0N2EtYTE1Ny05MWQxOGYxNzRhMDUifQ.TzObwlO51v1kO0BOAs29jkkHREEJ51g2ANtlsQ2_7lQ' \
+  -H 'content-length: 315' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Friend if those stop.","courseId":"fd691523-5600-4b86-917a-1e720a4a8d58","maxScore":87,"minScore":29,"orderIndex":56,"description":"Short manager PM security message actually. Wrong spend serious surface.\nRich remain wear candidate. Turn condition look behind here lose phone.","estimatedTime":"3 weeks"}'

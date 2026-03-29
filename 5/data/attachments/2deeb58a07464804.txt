@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI5VDA4OjEwOjI4LjIyNjAyMSIsInVzZXJfaWQiOiJlZGYwZmViNS1lNzY0LTRkYzktOGI2Zi0wMWM3M2Q4YzQ0MzkifQ.A512RmcyF0J-3WAnlC7Nk8USz43AC22_1JBj0edCyMk' \
+  -H 'content-length: 340' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Half here total bed stuff add situation American.","courseId":"28016aef-0a61-4700-9184-bef1a44dbb54","maxScore":51,"minScore":14,"orderIndex":20,"description":"Sport remember evidence walk.\nI public sort above. Sport arm rock explain son father send.\nKnow candidate vote forward wrong financial rock.","estimatedTime":"9 weeks"}'

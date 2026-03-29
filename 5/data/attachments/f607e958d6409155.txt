@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI5VDA4OjEwOjI1LjY4MzI3MSIsInVzZXJfaWQiOiIyNjg0ZjkyOS1hMDg5LTQ1NmUtYWE5Ni04ZjVhOGM0ZTk4ZTMifQ.wZhGgU9QQBv41Mkp7PxrXtSZ1US-TjW1qrHcKSFW2cs' \
+  -H 'content-length: 357' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Network team cold month section win believe.","maxScore":87,"minScore":9,"description":"Billion member summer challenge away decade. Music impact coach me become return impact general. Job serve talk decide.","estimatedTime":"8 weeks","previewFileId":"7da512fd-5b77-4cd4-a035-6c0116dead1c","createdByUserId":"2684f929-a089-456e-aa96-8f5a8c4e98e3"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI5VDA4OjEwOjI5LjA5MzQ4MSIsInVzZXJfaWQiOiI3N2RmNGVlYS00OTRiLTRjNTUtYjAxYi03YjMxNzhlNGFhZWUifQ.cE56DC7n-lPqNiYgbmVM3kLCCoAF-2UcVq9XFXK3Jgc' \
+  -H 'content-length: 404' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Like score issue write stock radio.","maxScore":91,"minScore":2,"description":"Capital standard shake ok. Letter form expect vote must total physical.\nAcross firm politics heart. By trouble agreement newspaper task person how. Until economic civil into.","estimatedTime":"7 weeks","previewFileId":"eb049752-5b6a-484e-98f7-0fa113cc32d0","createdByUserId":"77df4eea-494b-4c55-b01b-7b3178e4aaee"}'

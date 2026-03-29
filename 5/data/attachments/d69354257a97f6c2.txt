@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI5VDA4OjEwOjI4LjIyNjAyMSIsInVzZXJfaWQiOiJlZGYwZmViNS1lNzY0LTRkYzktOGI2Zi0wMWM3M2Q4YzQ0MzkifQ.A512RmcyF0J-3WAnlC7Nk8USz43AC22_1JBj0edCyMk' \
+  -H 'content-length: 415' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Both write important rich.","maxScore":76,"minScore":3,"description":"Act heart especially entire large. Represent common young challenge property project. Work win future gas manager.\nGreat view song. Visit few personal beyond machine.\nTravel blue pretty reduce.","estimatedTime":"4 weeks","previewFileId":"5cc7d872-092a-48d4-84ae-bd08cc07a791","createdByUserId":"edf0feb5-e764-4dc9-8b6f-01c73d8c4439"}'

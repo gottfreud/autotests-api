@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI5VDA4OjEwOjI3LjQyOTkzMSIsInVzZXJfaWQiOiI0M2NhYmI5MC1hNWY5LTRhZjUtYmZkNS0yMzEzNWI3M2U1OTUifQ.Hea_mbT1xoAl1aN1Y-boKUO5gzhpPx41Z-i5_lXizAk' \
+  -H 'content-length: 350' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Traditional expert perhaps their class term.","maxScore":73,"minScore":12,"description":"Hour member protect win including play go. Heart box Democrat trial toward low. Study move charge car magazine.","estimatedTime":"2 weeks","previewFileId":"9b21d747-4967-4faa-8f97-984fc1a4647a","createdByUserId":"43cabb90-a5f9-4af5-bfd5-23135b73e595"}'

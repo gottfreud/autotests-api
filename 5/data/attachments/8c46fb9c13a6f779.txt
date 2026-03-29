@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI5VDA4OjEwOjI3LjQyOTkzMSIsInVzZXJfaWQiOiI0M2NhYmI5MC1hNWY5LTRhZjUtYmZkNS0yMzEzNWI3M2U1OTUifQ.Hea_mbT1xoAl1aN1Y-boKUO5gzhpPx41Z-i5_lXizAk' \
+  -H 'content-length: 273' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Shoulder far air effect if.","courseId":"587f35a3-7354-4ce3-9968-77ef7482310b","maxScore":54,"minScore":1,"orderIndex":33,"description":"Fast article up on unit eight per. Sometimes friend future page. Expect nation produce Mrs travel.","estimatedTime":"7 weeks"}'
