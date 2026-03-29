@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI5VDA4OjA4OjQ2LjA0MzQ0NiIsInVzZXJfaWQiOiJhZTUzOWI0ZS0wODhlLTQyZmItYWIyZS1mM2VlZWMwYWFkZWMifQ.-64AOm-fMMelEsW3q9NKis9QzidOnOq0vVhDOyCcUuA' \
+  -H 'content-length: 372' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Unit throw along consider represent.","maxScore":52,"minScore":29,"description":"Capital source analysis rather return rich. Kitchen art operation ask generation street. Seem head visit great third page. Pull woman series.","estimatedTime":"5 weeks","previewFileId":"e7b40803-f5fa-4f9b-bf0b-6861eab57e5a","createdByUserId":"ae539b4e-088e-42fb-ab2e-f3eeec0aadec"}'

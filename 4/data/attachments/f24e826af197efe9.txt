@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI5VDA4OjA4OjQ3LjIxMzk4NiIsInVzZXJfaWQiOiIxZDU2ODhjNi0zMmRjLTQ3YmYtYTBlMi00NWNhMjZkNDk1ZTkifQ.3Mo8NeDK0VnsMm1PjBWk4BJU9Vk6VMWd2N1tbUeYujE' \
+  -H 'content-length: 373' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Position person station wind eat.","courseId":"35253c2f-f4ca-4676-8ac7-b694499ec64e","maxScore":70,"minScore":5,"orderIndex":55,"description":"Anything drive our he growth. Anything admit by view realize part morning tell.\nOr system treatment pretty throughout. International into ability never age six also. Current quite sister son.","estimatedTime":"8 weeks"}'

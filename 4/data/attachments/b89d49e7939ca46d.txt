@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI5VDA4OjA4OjQ3Ljg4NDAyNCIsInVzZXJfaWQiOiJmNGQzMTBjMi00NjRmLTQxYzEtOWE3OS0wYmJiZmExNzVjMTMifQ.1LB09t0IdyL9QuTmtT98p4cx8MQdaBHvG6nbEU7oj3E' \
+  -H 'content-length: 315' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Rather test then economic.","maxScore":82,"minScore":12,"description":"Network speak have experience above shoulder part. Four conference single position will adult.","estimatedTime":"4 weeks","previewFileId":"af1305ed-b8ff-4f08-920d-47e54c5abd41","createdByUserId":"f4d310c2-464f-41c1-9a79-0bbbfa175c13"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI5VDA4OjA4OjQ3LjIxMzk4NiIsInVzZXJfaWQiOiIxZDU2ODhjNi0zMmRjLTQ3YmYtYTBlMi00NWNhMjZkNDk1ZTkifQ.3Mo8NeDK0VnsMm1PjBWk4BJU9Vk6VMWd2N1tbUeYujE' \
+  -H 'content-length: 379' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Fast throw whose enough nice.","maxScore":58,"minScore":11,"description":"Chance behavior require he business offer. Federal accept well million left impact become. Represent out stuff eight drive whether.\nEverybody want trade.","estimatedTime":"10 weeks","previewFileId":"aa800e8c-24e8-4a94-a642-8dfccf8a8f55","createdByUserId":"1d5688c6-32dc-47bf-a0e2-45ca26d495e9"}'

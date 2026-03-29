@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI5VDA4OjA4OjQ2LjYzMTY4MiIsInVzZXJfaWQiOiJkNDk4YTUzZi04OTJmLTQ5OWItOTFhOS0xOGQ5ZTIwOTdhMzAifQ.PgafgguGXwkLBPujZX9T3SePUKX2GgmZTtE-Rvg10-g' \
+  -H 'content-length: 374' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Question her night decide citizen.","maxScore":97,"minScore":5,"description":"Fact chair old event adult stand. Leader yourself region.\nPressure property tonight finish debate war material. Live on majority whose beat yard.","estimatedTime":"3 weeks","previewFileId":"a7f2ba4f-ebdd-4fb5-98f4-cd12c503b9f9","createdByUserId":"d498a53f-892f-499b-91a9-18d9e2097a30"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI5VDA4OjA4OjQ4LjQ2ODE2OCIsInVzZXJfaWQiOiIyMWY1MmEwMS00MzljLTRiNWUtOWVjOS0yNmE3ZGQ2YTg2ZGEifQ.GkICJBkHDTrr2etd94jq-OQJ-D9HcRmh-44ZYV6cWEE' \
+  -H 'content-length: 370' \
+  -H 'content-type: application/json' \
+  -d '{"title":"But model Democrat early while back.","maxScore":56,"minScore":29,"description":"Amount blue teacher page finish economic no. Peace pattern beat right. College wait ever appear responsibility build. Both consider arrive.","estimatedTime":"8 weeks","previewFileId":"5c939fe6-8e14-40bb-a651-2133b0202c17","createdByUserId":"21f52a01-439c-4b5e-9ec9-26a7dd6a86da"}'

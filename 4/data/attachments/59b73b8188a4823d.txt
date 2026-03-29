@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI5VDA4OjA4OjQ0LjgwMTk1NyIsInVzZXJfaWQiOiJiN2M3OGMyZC04NzQzLTQ1ODUtYmY2My1jNjUwZjQ4NGMyNzAifQ.LbgYQOlQbVOLeK-rDPdHnTraGYfalvF3xt2dGFML9EI' \
+  -H 'content-length: 421' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Situation race mouth cost owner fish.","maxScore":57,"minScore":24,"description":"Region answer real education all report. Region newspaper own.\nSupport draw contain loss worker. Through budget front off with end them happy.\nPm child behavior. Growth say enter likely.","estimatedTime":"10 weeks","previewFileId":"10854635-59f4-43f0-ad24-b7e5a8f56cfb","createdByUserId":"b7c78c2d-8743-4585-bf63-c650f484c270"}'
